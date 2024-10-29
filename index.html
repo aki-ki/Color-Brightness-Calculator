@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Color Brightness Calculator</title>
+  </head>
+  <body>
+    <h1>Color Brightness Calculator</h1>
+    <img src="img/luminance-formula.png" alt="luminance formula" />
+    <p>
+      The percieved <b>brightness</b> or <b>luminance</b> of a color may be
+      calculated using the
+      <a
+        target="_blank"
+        href="https://www.rapidtables.com/web/color/RGB_Color.html"
+        >RGB values</a
+      >
+      of a color
+    </p>
+    R <input placeholder="0" type="number" name="" id="r-in" /> G
+    <input placeholder="0" type="number" name="" id="g-in" /> B
+    <input placeholder="0" type="number" name="" id="b-in" />
+    <button id="btn">Calculate Luminance</button>
+    <hr />
+    <h1>Luminance = <span id="output">0</span></h1>
+  </body>
+</html>
